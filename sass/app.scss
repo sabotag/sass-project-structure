@@ -1,0 +1,44 @@
+// ------------------------------------------
+// Vendor
+//-------------------------------------------
+@import "vendor/some-plugin";
+
+// ------------------------------------------
+// Base
+//-------------------------------------------
+@import 'base/functions';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/normalize';
+@import 'base/reset';
+
+// ------------------------------------------
+// Components
+// ------------------------------------------
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/cover';
+@import 'components/dropdown';
+@import 'components/tabs';
+@import 'components/modals';
+
+// ------------------------------------------
+// Layout
+// ------------------------------------------
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/sidebar';
+@import 'layout/content';
+@import 'layout/footer';
+
+// ------------------------------------------
+// Pages
+// ------------------------------------------
+@import 'pages/index';
+@import 'pages/about';
+@import 'pages/profile';
+
+// ------------------------------------------
+// Shame (hot fix)
+// ------------------------------------------
+@import "shame";
